@@ -1,0 +1,66 @@
+body {
+  padding: 50px;
+  background-color: #333;
+  font-family: sans-serif;
+}
+#root {
+  display: flex;
+  justify-content: center;
+
+}
+.new-input-box {
+  background-color: #282828;
+  padding: 32px 0;
+}
+
+input {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -.005em;
+  color: #fff;
+  width: 100%;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  border: none;
+  width: 100%;
+}
+*:focus {
+    outline: none;
+}
+.main {
+	width: 100%;
+}
+
+.content-spacing {
+	padding: 0 2em;
+    margin: 0 auto;
+    max-width: 1480px;
+}
+
+.task-list {
+  list-style: none;
+  width: 40vw;
+} 
+.task-list-item {
+  color: #f1f1f1;
+  /*background-color: rgba(255,255,255,.5);*/
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.objective-text {
+  font-size: 9vw;
+  line-height: 10 vw;
+  letter-spacing: -.005em;
+  color: #c8c8c8;
+}
+
+.objective-duration {
+  font-size: 8vw;
+  line-height: 10vw;
+  letter-spacing: -.005em;
+  color: #e3e3e3;
+}
